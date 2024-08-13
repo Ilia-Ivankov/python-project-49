@@ -12,11 +12,12 @@ How to download:
 5. play!
 
 first game:
+
 to play first game you need to type brain-even
 
 example:
 
-<script src="https://asciinema.org/a/7YagtdxtfgKlF8p8atF3Pj2XB.js" id="asciicast-7YagtdxtfgKlF8p8atF3Pj2XB" async="true"></script>
+[![asciicast](https://asciinema.org/a/7YagtdxtfgKlF8p8atF3Pj2XB.svg)](https://asciinema.org/a/7YagtdxtfgKlF8p8atF3Pj2XB)
 
 
 
