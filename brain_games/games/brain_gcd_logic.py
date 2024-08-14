@@ -1,4 +1,4 @@
-import random 
+import random
 
 
 rules = 'Find the greatest common divisor of given numbers.'
@@ -19,4 +19,3 @@ def get_question_and_correct_answer(start=0, end=100):
     question = str(number1) + ' ' + str(number2)
     correct_answer = str(find_gcd(number1, number2))
     return question, correct_answer
-
