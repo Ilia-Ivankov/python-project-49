@@ -21,5 +21,5 @@ def run_game(rules, get_question_and_correct_answer, MAX_ROUNDS=3):
             print(f'"{user_answer}" is wrong answer ;(.'
                   + f'Correct answer was "{correct_answer}".')
             print(f"Let's try again, {user_name}!")
-            break
+            return 
     print(f'Congratulations, {user_name}!')
