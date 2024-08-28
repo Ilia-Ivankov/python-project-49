@@ -1,32 +1,22 @@
-import random
-from brain_games.constants import MIN_PROGRESSION_LENGTH
-from brain_games.constants import MAX_PROGRESSION_LENGTH
+from brain_games.constants import PROGRESSION_LENGTH
 from brain_games.constants import PROGRESSION_INSTRUCTION
 from brain_games.core import run_game
 from brain_games.utils import generate_rand_num
 
 
-def create_progression(length_of_progression):
-    step_progression = generate_rand_num()
-    progression = []
-    first_number_of_progression = generate_rand_num()
-    for _ in range(length_of_progression):
-        progression.append(str(first_number_of_progression))
-        first_number_of_progression += step_progression
-    return progression
+def generate_progression(start, step, length):
+    return list(range(start, start + step * length, step))
 
 
-def get_progression_question_and_answer():
-    progression_length = random.randint(MIN_PROGRESSION_LENGTH,
-                                        MAX_PROGRESSION_LENGTH)
-    progression = create_progression(progression_length)
-    missed_number = random.randint(0, progression_length - 1)
-    correct_answer = progression[missed_number]
-    correct_answer = str(correct_answer)
-    progression[missed_number] = ".."
-    question = ' '.join(progression)
-    return question, correct_answer
+def generate_progression_hidden_num():
+    start_num, step = generate_rand_num(), generate_rand_num()
+    progression = generate_progression(start_num, step, PROGRESSION_LENGTH)
+    index_to_replace = generate_rand_num(0, PROGRESSION_LENGTH - 1)
+    hidden_num = progression[index_to_replace]
+    progression[index_to_replace] = '..'
+    missed = " ".join(map(str, progression))
+    return missed, str(hidden_num)
 
 
 def run_progression_game():
-    run_game(get_progression_question_and_answer, PROGRESSION_INSTRUCTION)
+    run_game(generate_progression_hidden_num, PROGRESSION_INSTRUCTION)

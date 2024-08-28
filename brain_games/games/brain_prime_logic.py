@@ -10,7 +10,7 @@ def is_prime(number):
             return False
         else:
             k += 1
-    return k == number
+    return True
 
 
 def get_prime_question_and_correct_answer():
