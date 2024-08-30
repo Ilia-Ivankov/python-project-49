@@ -1,7 +1,7 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Ilia-Ivankov/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Ilia-Ivankov/python-project-49/actions)
 
-[![Test Coverage](https://api.codeclimate.com/v1/badges/a888f13d5075f2a0e35b/test_coverage)](https://codeclimate.com/github/Ilia-Ivankov/python-project-49/test_coverage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/a888f13d5075f2a0e35b/maintainability)](https://codeclimate.com/github/Ilia-Ivankov/python-project-49/maintainability)
 
 Hello, this is games that train your brain!
 Here is 5 games: brain-even, brain-calculator, brain-progression, brain-gcd and brain-prime.
