@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from brain_games.games.brain_calc_logic import run_calc_game
+from brain_games.games.calc import run_calc_game
 
 
 def main():

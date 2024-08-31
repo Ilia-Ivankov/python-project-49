@@ -4,12 +4,11 @@ from brain_games.core import run_game
 
 
 def is_prime(number):
-    k = 2
-    while k != number:
-        if number % k == 0:
+    if num <= 1:
+        return False
+    for i in range(2, num - 1):
+        if num % i == 0:
             return False
-        else:
-            k += 1
     return True
 
 

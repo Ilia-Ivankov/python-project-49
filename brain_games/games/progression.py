@@ -1,5 +1,4 @@
-from brain_games.constants import PROGRESSION_LENGTH
-from brain_games.constants import PROGRESSION_INSTRUCTION
+from brain_games.constants import PROGRESSION_LENGTH, PROGRESSION_INSTRUCTION
 from brain_games.core import run_game
 from brain_games.utils import generate_rand_num
 

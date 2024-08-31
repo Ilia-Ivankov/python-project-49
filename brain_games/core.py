@@ -5,9 +5,7 @@ from brain_games.constants import MAX_ROUNDS
 def run_game(get_question_and_answer, game_instruction):
     user_name = prompt.string('Welcome to the Brain Games!\n'
                               'May I have your name?')
-    print(f'Hello, {user_name}')
-    if user_name is not None:
-        print(game_instruction)
+    print(f'Hello, {name}!\n{game_instruction}')
     for _ in range(MAX_ROUNDS):
         question, correct_answer = get_question_and_answer()
         user_answer = prompt.string(f'Question: {question}\nYour answer: ')
