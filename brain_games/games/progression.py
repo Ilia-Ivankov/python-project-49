@@ -3,6 +3,7 @@ from brain_games.core import run_game
 from brain_games.utils import generate_rand_num
 from random import randint
 
+
 def generate_progression(start, step, length):
     return list(range(start, start + step * length, step))
 
