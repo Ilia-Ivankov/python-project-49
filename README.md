@@ -18,7 +18,8 @@ How to install:
 
 first game:
 
-Guess what number is even. To play first game you need to type `brain-even`
+Guess what number is even. 
+To play first game you need to type: `brain-even`
 
 example:
 
@@ -26,14 +27,15 @@ example:
 
 second game:
 
-Guess the mathematical operation of two numbers. To play second game you need to type `brain-calc`
+Guess the mathematical operation of two numbers. 
+To play second game you need to type: `brain-calc`
 
 [![asciicast](https://asciinema.org/a/MC4Tqluc7i9g2TLpnYvUadvMq.svg)](https://asciinema.org/a/MC4Tqluc7i9g2TLpnYvUadvMq)
 
-
 third game:
 
-Find gcd of two numbers. To play third game you need to type `brain-gcd`
+Find gcd of two numbers. 
+To play third game you need to type: `brain-gcd`
 
 example:
 
@@ -41,7 +43,8 @@ example:
 
 fourth game:
 
-Guess the missing number in progression. To play fourth game you need to type `brain-progression`
+Guess the missing number in progression. 
+To play fourth game you need to type: `brain-progression`
 
 example:
 
@@ -49,7 +52,8 @@ example:
 
 fifth game:
 
-Guess if number is prime. To play fifth game you need to type `brain-prime`
+Guess if number is prime. 
+To play fifth game you need to type: `brain-prime`
 
 example:
 
