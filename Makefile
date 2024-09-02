@@ -20,3 +20,4 @@ brain-prime:
 	poetry run brain-prime
 brain-even:
 	poetry run brain-even
+.PHONY: brain-even
